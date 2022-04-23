@@ -1,0 +1,34 @@
+.footerBlock {
+    padding: 50px 0;
+    background-color: #252525;
+}
+
+.footerContainer{
+    flex-direction: column;
+}
+.footerTitle{
+    color: #fff;
+    font-size: 15px;
+    margin: 7px 0 10px;
+    text-transform: uppercase!important;
+}
+
+.boxInFooterContainer{
+    border: 1px solid;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.icon{
+    width: 60px;
+    height: 100%;
+    background-color: #a19e9d;
+}
+
+
+.footerBottomText{
+    background-color: #252525;
+    color: #fff;
+}

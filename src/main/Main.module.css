@@ -1,0 +1,69 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #252525;
+}
+
+.textAndPhotoBlock {
+    text-transform: uppercase !important;
+    color: #ffb400;
+    font-weight: 400;
+    margin: 18px 0 10px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 887px){
+    .textAndPhotoBlock {
+        flex-direction: column-reverse;
+    }
+}
+
+.textAndPhotoBlock h1 {
+    font-size: 52px;
+    line-height: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+@media screen and (max-width: 887px){
+    .textAndPhotoBlock h1 {
+        font-size:30px
+    }
+}
+
+.textAndPhotoBlock h2 span {
+    color: #fff;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: -20px;
+}
+@media screen and (max-width: 887px){
+    .textAndPhotoBlock h2 span {
+        font-size:20px
+    }
+}
+
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-image: url("https://html5css.ru/w3images/avatar2.png");
+    background-size:300px 400px
+}
+@media screen and (max-width: 887px){
+    .photo{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-size: 200px 200px;
+    }
+}
+
+
+
+
+

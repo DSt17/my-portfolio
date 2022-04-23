@@ -1,0 +1,115 @@
+.skillsBlock {
+    padding: 50px 0;
+    background-color: #252525;
+}
+
+.skillsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+.skillsBlock h2{
+    background-color: #252525;
+    color: #fff;
+    text-transform: uppercase!important;
+    font-size: 40px;
+    font-weight: 900!important;
+    margin: 0;
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+
+@media screen and (max-width: 563px) {
+    .skills {
+        justify-content: center;
+    }
+}
+
+
+
+
+/*
+.c100{
+    float: none!important;
+    margin: 50px auto;
+    background-color: #252525;
+    position: relative;
+    font-size: 120px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    box-sizing: border-box;
+
+}
+.c100 span{
+    color: #fff;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 5em;
+    line-height: 5em;
+    font-size: .2em;
+    text-align: center;
+    white-space: nowrap;
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+}
+.c100 .slice {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    clip: rect(auto,auto,auto,auto)
+}
+.c100 .bar {
+    transform: rotate(90deg);
+    border: 0.08em solid #ffb400;
+    width: 0.84em;
+    height: 0.84em;
+    clip: rect(0,0.5em,1em,0);
+    border-radius: 50%;
+    position: absolute;
+}
+.c100::after {
+    background-color: #111;
+    top: 0.08em;
+    left: 0.08em;
+    content: " ";
+    border-radius: 50%;
+    width: 0.84em;
+    height: 0.84em;
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+}
+.c100:after, .c100>span {
+    position: absolute;
+    display: block;
+}
+.c100 .fill{
+    transform: rotate(185deg);
+    width: 0.84em;
+    height: 0.84em;
+    clip: rect(0,0.5em,1em,0);
+    border-radius: 50%;
+    !*border: 0.08em solid #ffb400;*!
+}
+.c100 h6{
+    font-size: 20px;
+    color: white;
+   display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+*/
+
+

@@ -1,0 +1,12 @@
+.nav{
+    border: 1px solid white;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    text-transform: uppercase !important;
+    color: #fff;
+}
+

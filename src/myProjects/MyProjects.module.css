@@ -1,0 +1,42 @@
+.MyProjectsBlock {
+    padding: 50px 0;
+    background-color: #252525;}
+
+.MyProjectsBlock h2 span {
+    color: #ffb400;
+}
+
+.projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 900 !important;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+@media screen and(min-width: 576px) {
+    .title {
+        text-align: center;
+    }
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1129px) {
+    .projects {
+        justify-content: center;
+    }
+}
