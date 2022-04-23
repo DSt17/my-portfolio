@@ -25,58 +25,6 @@ const Skills = () => {
                         title={'React'}
                         description={'L the pri sdssdsssssd sds dsd sd ccccccccccccccccccccsd sd s ds dd d d d d dnting and typesetting industry. Lortandard dummy text.'}
                     />
-
-
-                  {/*  <div className={s.c100}>
-                        <span>25%</span>
-                        <div className={s.slice}>
-                            <div className={s.bar}></div>
-                            <div className={s.fill}></div>
-                        </div>
-                        <div>
-                            <h6>HTML</h6>
-                        </div>
-                    </div>
-                    <div className={s.c100}>
-                        <span>25%</span>
-                        <div className={s.slice}>
-                            <div className={s.bar}></div>
-                            <div className={s.fill}></div>
-                        </div>
-                        <div>
-                            <h6>CSS</h6>
-                        </div>
-                    </div>
-                    <div className={s.c100}>
-                        <span>25%</span>
-                        <div className={s.slice}>
-                            <div className={s.bar}></div>
-                            <div className={s.fill}></div>
-                        </div>
-                        <div>
-                            <h6>JS</h6>
-                        </div>
-                    </div>
-                    <div className={s.c100}>
-                        <span>25%</span>
-                        <div className={s.slice}>
-                            <div className={s.bar}></div>
-                            <div className={s.fill}></div>
-                        </div>
-                        <div>
-                            <h6>React</h6>
-                        </div>
-                    </div>
-                    <div className={s.c100}>
-                        <span>25%</span>
-                        <div className={s.slice}>
-                            <div className={s.bar}></div>
-                            <div className={s.fill}></div>
-                        </div>
-                        <div>
-                            <h6>Redux</h6>
-                        </div>
-                    </div>*/}
                 </div>
             </div>
         </div>
