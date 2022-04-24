@@ -1,0 +1,41 @@
+@import 'src/common/components/sass/variables.scss' ;
+
+
+.skillsBlock {
+  padding: 50px 0;
+  background-color: $bgColor;
+
+  .skillsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+
+    .skills {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      @media screen and (max-width: 563px) {
+        justify-content: center;
+      }
+    }
+  }
+
+  h2 {
+    background-color: $bgColor;
+    color: #fff;
+    text-transform: uppercase !important;
+    font-size: 40px;
+    font-weight: 900 !important;
+    margin: 0;
+  }
+}
+
+
+
+
+
+
+
+
