@@ -1,5 +1,5 @@
-@import 'src/common/components/sass/variables.scss' ;
-
+@import '../../common/styles/sass/variables.scss';
+@import './src/common/styles/sass/mixins';
 
 .skill{
     border: 1px solid;
@@ -20,11 +20,8 @@
         background-color: #929c92;
     }
     h3{
-        font-family: "Poppins",sans-serif;
-        font-weight: 600;
-        font-size: 20px;
+        @include text($TextFontFamily, 600, 20px);
         color: $primaryColor;
-
     }
 }
 
