@@ -1,0 +1,72 @@
+@import '/src/common/styles/sass/variables';
+@import '/src/common/styles/sass/mixins';
+
+.mainBlock {
+  height: 100vh;
+  background-color: $bgSecondColor;
+
+  .textAndPhotoBlock {
+    text-transform: uppercase !important;
+    color: $primaryColor;
+    font-weight: 400;
+    margin: 18px 0 10px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    @media screen and (max-width: 887px) {
+      flex-direction: column-reverse;
+    }
+
+    h1 {
+      @include text($TextFontFamily, 600, 52px);
+      line-height: 22px;
+      @media screen and (max-width: 887px) {
+        font-size: 30px
+      }
+    }
+
+    h2 span {
+      color: $textColor;
+      display: block;
+      font-family: $TextFontFamily;
+      font-weight: 600;
+      margin-top: -20px;
+      @media screen and (max-width: 887px) {
+        font-size: 20px
+      }
+    }
+
+    .photo {
+      width: 300px;
+      height: 400px;
+      background-image: url("https://html5css.ru/w3images/avatar2.png");
+      background-size: 300px 400px;
+      @media screen and (max-width: 887px) {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-size: 200px 200px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

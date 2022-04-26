@@ -1,6 +1,11 @@
-
-@mixin text($fontFamily, $fontWeight, $fontSize ){
+@mixin text($fontFamily, $fontWeight, $fontSize ) {
   font-family: $fontFamily;
   font-weight: $fontWeight;
   font-size: $fontSize;
+}
+
+@mixin fontImgCenter(){
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

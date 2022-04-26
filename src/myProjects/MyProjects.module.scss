@@ -5,16 +5,18 @@
 .MyProjectsBlock {
   padding: 50px 0;
   background-color: $bgColor;
-   h2 span {
+
+  h2 span {
     color: #ffb400;
   }
+
   .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
     box-sizing: border-box;
 
     .title {
-      @include text($TextFontFamily,900,40px);
+      @include text($TextFontFamily, 900, 40px);
       color: #fff;
       text-transform: uppercase;
       margin: 0;

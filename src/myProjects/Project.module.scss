@@ -11,8 +11,8 @@
   padding: 10px;
 
   .ProjectImgContainer {
+    @include fontImgCenter();
     height: 200px;
-    background-color: #d4bf38;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,9 +20,6 @@
     justify-content: center;
     box-sizing: border-box;
     border-radius: 5px 5px 0 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     position: relative;
 
     .projectBottom {
@@ -53,7 +50,6 @@
 
   .descriptionBlock {
     width: 100%;
-    border: 1px solid;
     text-align: start;
     box-sizing: border-box;
     background-color: $bgSecondColor;
@@ -62,7 +58,7 @@
 
 
     .titleProject {
-      @include text($TextFontFamily,600,20px);
+      @include text($TextFontFamily, 600, 20px);
       color: $primaryColor;
     }
 
