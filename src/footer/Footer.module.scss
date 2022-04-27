@@ -1,39 +1,64 @@
 @import '/src/common/styles/sass/variables';
+@import '/src/common/styles/sass/mixins';
 
 
 .footerBlock {
   padding: 50px 0;
   background-color: $bgColor;
+
+  .footerContainer {
+    flex-direction: column;
+
+    .footerTitle {
+      color: $textColor;
+      font-size: 15px;
+      margin: 7px 0 10px;
+      text-transform: uppercase;
+    }
+
+    .boxInFooterContainer {
+      width: 250px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: -50px;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      li {
+        width: 60px;
+        height: 100%;
+        list-style-type: none;
+        margin: 0 6px;
+
+      }
+      img {
+         height: 100%;
+        width: 40px;
+      }
+    }
+
+    .footerBottomText {
+      background-color: $bgColor;
+      color: $textColor;
+    }
+  }
+
 }
 
-.footerContainer {
-  flex-direction: column;
-}
-
-.footerTitle {
-  color: $textColor;
-  font-size: 15px;
-  margin: 7px 0 10px;
-  text-transform: uppercase;
-}
-
-.boxInFooterContainer {
-  border: 1px solid;
-  width: 250px;
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
-
-}
-
-.icon {
-  width: 60px;
-  height: 100%;
-  background-color: #a19e9d;
-}
 
 
-.footerBottomText {
-  background-color: $bgColor;
-  color: $textColor;
-}
+
+
+
+
+
+
+
