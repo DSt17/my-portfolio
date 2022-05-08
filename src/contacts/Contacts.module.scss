@@ -39,7 +39,13 @@
     outline: none !important;
     transition: .3s;
     height: 18%;
+    padding: 2px 10px;
+    font-family: "Poppins", sans-serif ;
+
   }
+input::placeholder{
+  font-size:  12px;
+}
 
   textarea {
     border: 1px solid white;
@@ -52,13 +58,18 @@
     transition: .3s;
     height: 50%;
     line-height: normal;
+    padding: 1px 10px;
+    font-family: "Poppins", sans-serif ;
+  }
+  textarea::placeholder{
+    font-size: 12px;
   }
 
   button {
     width: 100px;
-    background-color: #252525;
+    background-color: #fff;
     margin: 10px;
     border: 1px solid black;
-    color: white;
+    color: black;
   }
 }

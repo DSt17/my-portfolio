@@ -17,19 +17,21 @@
     }
 
     .boxInFooterContainer {
-      width: 250px;
+      width: 290px;
       height: 40px;
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-end;
+
+
 
 
       ul {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-left: -50px;
         margin-top: 0;
         margin-bottom: 0;
+
       }
 
       li {
@@ -37,12 +39,17 @@
         height: 100%;
         list-style-type: none;
         margin: 0 6px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        a{
+          color: #323232;
+        }
+      }
+      a:hover{
+        color: #ffb400;
+      }
 
-      }
-      img {
-         height: 100%;
-        width: 40px;
-      }
     }
 
     .footerBottomText {

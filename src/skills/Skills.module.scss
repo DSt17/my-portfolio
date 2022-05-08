@@ -4,6 +4,7 @@
 .skillsBlock {
   padding: 50px 0;
   background-color: $bgColor;
+  border-bottom:3px solid #323232;
 
   .skillsContainer {
     flex-direction: column;
@@ -29,6 +30,7 @@
     font-size: 40px;
     font-weight: 900;
     margin: 0;
+    padding-bottom: 40px;
   }
 }
 

@@ -1,10 +1,12 @@
 import React from "react";
 import s from './Footer.module.scss'
 import styleContainer from "../common/styles/Container.module.css";
-import vkIcon from "../assets/img/vk-icon.png";
-import facebookIcon from "../assets/img/facebook-icon.png";
-import instagramIcon from "../assets/img/instagram-icon.png";
-import youtubeIcon from "../assets/img/youtube-icon.png";
+
+
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faFacebook, faInstagram, faVk, faYoutube} from '@fortawesome/free-brands-svg-icons'
+
 
 
 const Footer = () => {
@@ -17,22 +19,22 @@ const Footer = () => {
                     <ul>
                         <li>
                             <a href={"https://www.vk.com/"} target={"_blank"}>
-                                <img src={vkIcon}/>
+                                <FontAwesomeIcon icon={faVk} />
                             </a>
                         </li>
                         <li>
                             <a href={"https://www.facebook.com/"} target={"_blank"}>
-                                <img src={facebookIcon}/>
+                                <FontAwesomeIcon icon={faFacebook} />
                             </a>
                         </li>
                         <li>
                             <a href={"https://www.instagram.com/"} target={"_blank"}>
-                                <img src={instagramIcon}/>
+                                <FontAwesomeIcon icon={faInstagram}  />
                             </a>
                         </li>
                         <li>
                             <a href={"https://www.youtube.com/"} target={"_blank"}>
-                                <img src={youtubeIcon}/>
+                                <FontAwesomeIcon icon={faYoutube} />
                             </a>
                         </li>
                     </ul>
